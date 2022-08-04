@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: red;
+    color: #fff;
+    box-sizing: border-box;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    text-decoration-line: none;
+
+}
+
+.navbar ul li{
+    padding-left: 10px;
+    
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a:hover{
+color: pink;
+}
+
+.home-container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+.home-container .home{
+padding: 20px;
+margin-top: 50px;
+align-items: center;
+
+}
+
+.home-container .home button{
+    height: 40px;
+    width: 250px;
+    color: #fff;
+    background: crimson;
+    border: none;
+}
+
+.home-container img{
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.products-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.products-container img{
+height: 400px;
+width: 300px;
+
+}
+.products-tittle{
+    justify-content: center;
+    color: #fff;
+    padding-left: 500px;
+    background:navy ;
+
+}
+.products-container button{
+    height: 30px;
+    width: 200px;
+    border: none;
+    font-size: 0.8em;
+    background: navy;
+    color: #fff;
+}
